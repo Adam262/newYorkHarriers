@@ -13,14 +13,26 @@ img {
   text-align: center;
   position: fixed;
   width: 100vw;
-  top: 15em;
+  bottom: 5em;
   z-index: 100;
 }
 
 .logo {
   width: 30em;
+  border: 1px solid white;
+  padding: 1%;
 }
 
 .fp-controlArrow {
   display: none;
 }
+
+@media only screen and  (max-width: 568px) {
+  .logo {
+    width: 18em;
+    padding: 1% 1.5%;
+
+  }
+}
+
+
